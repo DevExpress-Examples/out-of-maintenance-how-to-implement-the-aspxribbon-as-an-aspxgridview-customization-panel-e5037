@@ -1,0 +1,31 @@
+# How to implement the ASPxRibbon as an ASPxGridView customization panel
+
+
+<p>This example demonstrates how to use an ASPxRibbon in a Web User Control, which can be added to an ASPxGridView's TitleTemplate to represent a control panel for managing common GidView functions.</p>
+<p>Due to ASPxGridView specifics, all actions performed with the control require a request to the server in order to take effect. All these requests are performed via callbacks except two operations: switching the control to edit mode and the export operation. These operations are executed via postbacks. For this purpose, we implemented a custom postback event handler.</p>
+<p>Another important point is that since the ASPxRibbon is a control intended to be used primarily as a client side static component, it does not keep its state between requests to the server. So, it is necessary to handle saving and restoring of Ribbon items' state on each request. For this purpose, use an ASPxHiddenField.</p>
+<p>Please note that in order to enable correct operation of the client side command handler, the following settings need to be adjusted and should not be overridden:</p>
+
+
+```cs
+ASPxGridView.SettingsBehavior.AllowFocusedRow = true;
+ASPxGridView.SettingsPager.Visible = false;
+```
+
+
+<p> </p>
+
+
+```vb
+ASPxGridView.SettingsBehavior.AllowFocusedRow = true
+ASPxGridView.SettingsPager.Visible = false 
+
+```
+
+
+<p><strong><br> Note:</strong></p>
+<p>Starting with version 17.1, ASPxGridView provides an embedded toolbar that allows implementing similar functionality without using an external ribbon. See the <a href="https://www.devexpress.com/Support/Center/p/T552217">ASPxGridView - Simple implementation of an embedded toolbar</a> example demonstrating this feature. </p>
+
+<br/>
+
+
