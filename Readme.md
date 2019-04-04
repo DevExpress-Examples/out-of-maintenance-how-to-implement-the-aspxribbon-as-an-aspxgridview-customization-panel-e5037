@@ -3,7 +3,7 @@
 
 * [RibbonStateController.cs](./CS/WebSite/App_Code/RibbonStateController.cs) (VB: [RibbonStateController.vb](./VB/WebSite/App_Code/RibbonStateController.vb))
 * [ASPxGridRibbon.ascx](./CS/WebSite/ASPxGridRibbon.ascx) (VB: [ASPxGridRibbon.ascx](./VB/WebSite/ASPxGridRibbon.ascx))
-* [ASPxGridRibbon.ascx.cs](./CS/WebSite/ASPxGridRibbon.ascx.cs) (VB: [ASPxGridRibbon.ascx](./VB/WebSite/ASPxGridRibbon.ascx))
+* [ASPxGridRibbon.ascx.cs](./CS/WebSite/ASPxGridRibbon.ascx.cs) (VB: [ASPxGridRibbon.ascx.vb](./VB/WebSite/ASPxGridRibbon.ascx.vb))
 * [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
 <!-- default file list end -->
 # How to implement the ASPxRibbon as an ASPxGridView customization panel
