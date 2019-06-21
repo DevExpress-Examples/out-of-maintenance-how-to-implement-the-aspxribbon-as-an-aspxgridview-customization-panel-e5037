@@ -7,6 +7,9 @@
 * [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
 <!-- default file list end -->
 # How to implement the ASPxRibbon as an ASPxGridView customization panel
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e5037/)**
+<!-- run online end -->
 
 
 <p>This example demonstrates how to use an ASPxRibbon in a Web User Control, which can be added to an ASPxGridView's TitleTemplate to represent a control panel for managing common GidView functions.</p>
