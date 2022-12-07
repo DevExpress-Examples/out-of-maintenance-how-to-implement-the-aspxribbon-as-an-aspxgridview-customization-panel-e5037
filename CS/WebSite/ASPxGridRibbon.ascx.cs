@@ -6,9 +6,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using DevExpress.Web.ASPxGridView;
-using DevExpress.Web.ASPxGridView.Export;
-using DevExpress.Web.ASPxRibbon;
+using DevExpress.Web;
 
 public partial class ASPxGridRibbon : System.Web.UI.UserControl, IPostBackEventHandler {
 	private RibbonStateController state;
