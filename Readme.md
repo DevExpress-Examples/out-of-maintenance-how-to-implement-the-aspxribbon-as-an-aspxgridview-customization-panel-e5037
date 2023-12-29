@@ -1,8 +1,3 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128564634/13.2.5%2B)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E5037)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 <!-- default file list -->
 *Files to look at*:
 
@@ -12,9 +7,6 @@
 * [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
 <!-- default file list end -->
 # How to implement the ASPxRibbon as an ASPxGridView customization panel
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e5037/)**
-<!-- run online end -->
 
 
 <p>This example demonstrates how to use an ASPxRibbon in a Web User Control, which can be added to an ASPxGridView's TitleTemplate to represent a control panel for managing common GidView functions.</p>
